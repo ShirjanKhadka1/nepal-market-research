@@ -1,0 +1,41 @@
+# Bottlers Nepal (Terai) — BNT (NEPSE) — Inputs only, NOT a valuation
+
+**Status: Inputs only.** No DCF, no target price, and no valuation conclusion
+has been built in this study. Anyone who quotes this folder as a valuation is
+misquoting it.
+
+## Source
+39th annual report, FY 2081/82 (year ended 16 Jul 2025), standalone figures.
+NEPSE ticker BNT — not the NYSE company of the same letters.
+
+## Verified inputs (all NPR, unless stated)
+- Revenue: 7,527,297,984 (−14.2% vs prior year)
+- EBIT: 407,359,078
+- Depreciation & amortisation: 650,871,600
+- Profit before tax: 218,422,271
+- Tax — current: 53,371,085; prior-period adjustment: 763,054,705;
+  deferred: 15,934,615
+- Net loss: −613,938,134 (the Rs 763M prior-period tax adjustment is the
+  entire reason for the loss — without it, the year would not be a loss year)
+- EPS: −507
+- Operating cash flow: 1,497,212,819
+- Capex: 197,522,182
+- Borrowings: 2,344,466,783, all current, nil non-current
+- Cash: 36,531,377
+- Shares outstanding: 1,210,000
+- Current lease liability: 32,042,935 (open item: working capital or debt?)
+- Dividend for FY 2081/82: nil
+
+## Open questions (undecided — do not treat any of these as decided)
+1. FCFF bridge gap of ~Rs 81M between OCF-minus-capex (~Rs 1,299.7M) and the
+   EBIT bridge (~Rs 1,218.7M) — likely cash taxes / interest classification,
+   not yet proved.
+2. NOPAT tax rate: 25% statutory vs 24.4% effective — not yet chosen.
+3. WACC weights, current vs target capital structure, thin-trading beta caveat.
+4. Terminal growth: any rate near nominal GDP needs a reconvergence thesis,
+   given revenue fell 14.2% — not yet argued.
+
+## What would complete this study
+A 3-statement forecast with stated drivers, a WACC with stated weights, and a
+terminal value with a stated growth thesis — each checked against the figures
+above, with every change from these inputs explained. Until then: inputs only.
