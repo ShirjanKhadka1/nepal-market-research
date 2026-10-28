@@ -51,3 +51,26 @@ not a gimmick.
 A contribution here is a sourced figure, a corrected figure with a better
 source, or a completed checklist item — with the source attached. Unsourced
 numbers will not be merged, however plausible they look.
+
+## Quick start
+
+1. Read `case-studies/` for the current studies and their status
+   (Inputs only / In progress / Completed).
+2. Pick one study and read its README end to end, including its open
+   questions, before reusing any figure from it.
+3. To contribute, bring a sourced figure or a corrected figure with a
+   better source — see Contributing above and `CONTRIBUTING.md`.
+
+## Limitations
+
+- `data/` is currently empty: no dataset has been added yet, because none
+  has been sourced and dated to the standard in the Rules above.
+- The Bottlers Nepal (Terai) study is Inputs only, not a valuation: no DCF,
+  no target price, and no valuation conclusion has been built in it.
+- Nothing in this repo is a live feed or a price source.
+
+> Research only, not investment advice; never a buy/sell recommendation
+
+See `CONTRIBUTING.md` for how to contribute and `SECURITY.md` for how to
+report a security issue privately.
+
