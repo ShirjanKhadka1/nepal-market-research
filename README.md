@@ -23,8 +23,12 @@ not a gimmick.
   source, period, verified inputs, open questions, and a clear
   "completed / in progress / inputs only" status. Nothing is called a
   valuation until the valuation is actually built and checked.
-- `data/` — only data with a named public source. No scraped data presented
-  as official, no invented prices.
+- `data/` — reserved for data with a named public source. No scraped data
+  presented as official, no invented prices. **Note (28 Oct 2026): this
+  folder is currently empty** — no dataset has been added yet, because
+  none has been sourced and dated to the standard in the Rules below.
+  See `data/README.md`. Nothing in this repo should be read as implying
+  data lives here until a sourced file is actually added.
 
 ## Case study status key
 
