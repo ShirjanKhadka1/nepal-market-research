@@ -1,0 +1,11 @@
+{
+  "repo": "nepal-market-research",
+  "case_studies": 1,
+  "datasets": 1,
+  "tests_passed": null,
+  "tests_total": null,
+  "tests_note": "No code tests (Markdown/research repo)",
+  "generated_by": "scripts/generate_status.py (Round 3: file counts from disk)",
+  "generated_at": "2026-10-29",
+  "method": "case-study subdirectories and data/*.csv counted from disk"
+}
