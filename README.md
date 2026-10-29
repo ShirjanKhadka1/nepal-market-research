@@ -23,16 +23,24 @@ not a gimmick.
   source, period, verified inputs, open questions, and a clear
   "completed / in progress / inputs only" status. Nothing is called a
   valuation until the valuation is actually built and checked.
-- `data/` — reserved for data with a named public source. No scraped data
-  presented as official, no invented prices. **Note (28 Oct 2026): this
-  folder is currently empty** — no dataset has been added yet, because
-  none has been sourced and dated to the standard in the Rules below.
-  See `data/README.md`. Nothing in this repo should be read as implying
-  data lives here until a sourced file is actually added.
+- `data/` — datasets with a named public source. **Note (29 Oct 2026):
+  this folder now holds one dataset** — `bnt-fy2081-82.csv`, the verified
+  FY 2081/82 Bottlers Nepal (Terai) figures from the 39th annual report,
+  with its source and gaps in `data/SOURCES.md`. Nothing else has been
+  added, and no figure without a named source is in the file.
+- `model/` — a documented research-model **skeleton** for the same study
+  (`model/README.md`, `model/assumptions.md`, `model/sensitivity.md`):
+  an assumptions table and sensitivity tables computed only from the
+  verified inputs, with every step of arithmetic shown. It is a skeleton,
+  not a valuation: no forecast, no WACC, no terminal value, no target
+  price — see the honest finding in `model/README.md`.
 
 ## Case study status key
 
 - **Inputs only:** verified figures collected, analysis not yet built.
+- **Inputs + skeleton:** verified figures plus a documented research-model
+  skeleton (assumptions + sensitivity on verified inputs only) — still
+  not a valuation.
 - **In progress:** analysis underway, gaps listed in the study README.
 - **Completed:** analysis built, checked, and reviewed — with the checker named.
 
@@ -63,10 +71,17 @@ numbers will not be merged, however plausible they look.
 
 ## Limitations
 
-- `data/` is currently empty: no dataset has been added yet, because none
-  has been sourced and dated to the standard in the Rules above.
-- The Bottlers Nepal (Terai) study is Inputs only, not a valuation: no DCF,
-  no target price, and no valuation conclusion has been built in it.
+- `data/` now holds one dataset: `bnt-fy2081-82.csv` (verified
+  FY 2081/82 BNT figures, 39th annual report) with `data/SOURCES.md`.
+  It holds nothing else.
+- `model/` holds a research-model skeleton only (assumptions +
+  sensitivity on verified inputs). It is not a valuation.
+- The Bottlers Nepal (Terai) study is Inputs + skeleton, not a
+  valuation: no DCF, no target price, and no valuation conclusion has
+  been built in it. A full valuation cannot be built from verified
+  inputs alone today — see the honest finding in `model/README.md`
+  (unreconciled ~Rs 81M FCFF bridge gap, undecided tax rate, unverified
+  beta vintage, no forecast drivers, FY 2082/83 audited outcome pending).
 - Nothing in this repo is a live feed or a price source.
 
 > Research only, not investment advice; never a buy/sell recommendation
