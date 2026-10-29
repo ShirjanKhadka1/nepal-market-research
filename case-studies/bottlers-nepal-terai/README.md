@@ -1,7 +1,13 @@
-# Bottlers Nepal (Terai) — BNT (NEPSE) — Inputs only, NOT a valuation
+# Bottlers Nepal (Terai) — BNT (NEPSE) — Inputs + skeleton, NOT a valuation
 
-**Status: Inputs only.** No DCF, no target price, and no valuation conclusion
-has been built in this study. Anyone who quotes this folder as a valuation is
+**Status: Inputs + skeleton.** The verified inputs below are now also
+in machine-readable form in `../../data/bnt-fy2081-82.csv` (see
+`../../data/SOURCES.md` for the source and gap list), and a documented
+research-model skeleton — assumptions table plus sensitivity tables
+computed only from these inputs, arithmetic shown — lives in
+`../../model/` (`README.md`, `assumptions.md`, `sensitivity.md`).
+No DCF, no target price, and no valuation conclusion has been built
+in this study. Anyone who quotes this folder as a valuation is
 misquoting it.
 
 ## Source
@@ -38,4 +44,5 @@ NEPSE ticker BNT — not the NYSE company of the same letters.
 ## What would complete this study
 A 3-statement forecast with stated drivers, a WACC with stated weights, and a
 terminal value with a stated growth thesis — each checked against the figures
-above, with every change from these inputs explained. Until then: inputs only.
+above, with every change from these inputs explained. Until then: inputs +
+skeleton only, not a valuation.
