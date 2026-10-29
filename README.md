@@ -89,3 +89,6 @@ numbers will not be merged, however plausible they look.
 See `CONTRIBUTING.md` for how to contribute and `SECURITY.md` for how to
 report a security issue privately.
 
+## Generated counts
+
+Counts in this repo are generated, not typed: see `status.json` (produced by `scripts/generate_status.py`, checked by `scripts/check_numbers.py`). This repo has no code test suite; case studies and datasets are counted from disk.
