@@ -14,6 +14,11 @@ misquoting it.
 39th annual report, FY 2081/82 (year ended 16 Jul 2025), standalone figures.
 NEPSE ticker BNT — not the NYSE company of the same letters.
 
+Single source for these figures (Round 3, R7, 29 Oct 2026):
+`../data/bnt-verified-figures.md` — values here match it exactly.
+Page reference for every figure: TO VERIFY (no copy of the 39th
+annual report PDF is on file; see that file's verification status).
+
 ## Verified inputs (all NPR, unless stated)
 - Revenue: 7,527,297,984 (−14.2% vs prior year)
 - EBIT: 407,359,078
